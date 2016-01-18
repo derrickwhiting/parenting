@@ -3,7 +3,7 @@ class Child extends React.Component {
     super(props);
   }
   render(){
-    return(<li><h5>{this.props.name}</h5></li>
+    return(<li className='flat hoverable lowercase'><h5>{this.props.name}</h5></li>
                   )
   }
 }
